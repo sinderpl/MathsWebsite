@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.1//EN" 
+"http://www.w3.org/tr/xhtml11/Dtd/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="273" height="120">
+		<param name="movie" value="flashvortex.swf" />
+		<param name="quality" value="best" />
+		<param name="menu" value="true" />
+		<param name="allowScriptAccess" value="sameDomain" />
+		<embed src="flashvorteConv.swf" quality="best" menu="true" width="273" height="120" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="sameDomain" />
+	</object>
+		<link rel="stylesheet" type="text/css" href="css/styleprofessional.css"/>
+		<script type="text/javascript" src="javascripts/math2.js"></script>
+	</head>
+	<body class="mid">
+		<nav>
+				<ul>
+					<li><a href=index.html>Home</a></li>
+					<li><a href=maths1.html>Calculator</a></li>
+					<li><a href=maths2.html>Unit Conversion</a></li>
+				</ul>
+		</nav>
+		<table >
+			<a name="mass">
+			<tr>
+				<td>Unit conversion </td>
+			</tr>
+			<tr>
+				<td>Select decimal places</td>
+				<td>
+					<select id="DP">
+						<option value="ODP">1</option>
+						<option value="TDP">2</option>
+						<option value="THDP">3</option>
+						<option value="FDP">4</option>
+						<option value="FIDP">5</option>
+						<option value="SDP">6</option>
+						<option value="SEDP">7</option>
+						<option value="EDP">8</option>
+						<option value="NDP">9</option>
+						<option value="TEDP">10</option>
+				</td>
+			</tr>
+			<tr>
+				<td>Mass: </td>
+			</tr>
+			<tr>
+				<td>Value: </td>
+				<td><input type="text" id="Mass1" /></td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td>Change from:</td>
+				<td>
+					<select id="MassUnit1">
+						<option value="G1">Grams</option>
+						<option value="KG1">Kilograms</option>
+						<option value="T1">Tonne</option>
+						<option value="OZ1">Ounce</option>
+						<option value="P1">Pound</option>
+						<option value="ST1">Stone</option>
+				</td>
+				<td>To:</td>
+				<td>
+					<select id="MassUnit2">
+						<option value="G2">Grams</option>
+						<option value="KG2">Kilograms</option>
+						<option value="T2">Tonne</option>
+						<option value="OZ2">Ounce</option>
+						<option value="P2">Pound</option>
+						<option value="ST2">Stone</option>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Result:</td>
+				<td><input type="text" id="MassAnswer" disabled="disabled"/></td>
+			<tr>
+				<td><input type="button" id="ResetMass" value="Reset" /></td>
+				<td><input type="button" id="CalculateMass" value="Calculate" /></td>
+			</tr>
+			</tr>
+			<a name="distance">
+			<tr>
+				<td>Distance: </td>
+			</tr>
+			<tr>
+				<td>Value: </td>
+				<td><input type="text" id="distance" /></td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td>Change from:</td>
+				<td>
+					<select id="distance1">
+						<option value="C1">Centimetres</option>
+						<option value="ME1">Metres</option>
+						<option value="KM1">Kilometers</option>
+						<option value="IN1">Inches</option>
+						<option value="FT1">Foot</option>
+						<option value="MI1">Mile</option>
+				</td>
+				<td>To:</td>
+				<td>
+					<select id="distance2">
+						<option value="C2">Centimetres</option>
+						<option value="ME2">Meters</option>
+						<option value="KM2">Kilometers</option>
+						<option value="IN2">Inches</option>
+						<option value="FT2">Foot</option>
+						<option value="MI2">Mile</option>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Result:</td>
+				<td><input type="text" id="DistanceAnswer" disabled="disabled"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="ResetDistance" value="Reset" /></td>
+				<td><input type="button" id="CalculateDistance" value="Calculate" /></td>
+			</tr>
+			<a name="speed">
+			<tr>
+				<td>Speed: </td>
+			</tr>
+			<tr>
+				<td>Value: </td>
+				<td><input type="text" id="speed" /></td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td>Change from:</td>
+				<td>
+					<select id="speed1">
+						<option value="KMPH1">Kilometers per Hour</option>
+						<option value="MPH1">Miles per Hour</option>
+				</td>
+				<td>To:</td>
+				<td>
+					<select id="speed2">
+					<option value="KMPH2">Kilometers per Hour</option>
+					<option value="MPH2">Miles per Hour</option>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Result:</td>
+				<td><input type="text" id="SpeedAnswer" disabled="disabled"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="ResetSpeed1" value="Reset" /></td>
+				<td><input type="button" id="CalculateSpeed1" value="Calculate" /></td>
+			</tr>
+
+			
+		</table>
+	</body>
+</html>

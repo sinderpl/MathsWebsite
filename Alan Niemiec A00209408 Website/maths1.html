@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="273" height="120">
+		<param name="movie" value="flashvortex.swf" />
+		<param name="quality" value="best" />
+		<param name="menu" value="true" />
+		<param name="allowScriptAccess" value="sameDomain" />
+		<embed src="flashvortexcalc.swf" quality="best" menu="true" width="273" height="120" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="sameDomain" />
+	</object>
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="css/styleprofessional.css"/>
+		<script type="text/javascript" src="javascripts/math1.js"></script>
+	</head>
+	<body class="mid">
+		<nav>
+				<ul>
+					<li><a href=index.html>Home</a></li>
+					<li><a href=maths1.html>Calculator</a></li>
+					<li><a href=maths2.html>Unit Conversion</a></li>
+				</ul>
+		</nav>
+		
+		<table align="center">
+		
+			<a name="integers">
+			<tr>
+				<td>Integers:</td>
+			</tr>
+			<tr>
+				<td>Enter Value 1: </td>
+				<td><input type="text" id="value1" /></td>
+			</tr>
+			<tr>
+				<td>Enter Value 2: </td>
+				<td><input type="text" id="value2" /></td>
+			</tr>
+			<tr>
+				<td>Select Operation: </td>
+				<td>
+					<input type="radio" name="calc" id="add" checked="true"/>Add
+					<input type="radio" name="calc" id="subtract"/>Subtract
+					<input type="radio" name="calc" id="multiply"/>Multiply
+					<input type="radio" name="calc" id="divide"/>Divide
+				</td>
+			</tr>
+			<tr>
+				<td>Select decimal places</td>
+				<td>
+					<select id="DP">
+						<option value="ODP">1</option>
+						<option value="TDP">2</option>
+						<option value="THDP">3</option>
+						<option value="FDP">4</option>
+				</td>
+			</tr>
+			<tr>
+				<td>Min:</td>
+				<td><input type="text" id="min" disabled="disabled"/></td>
+			</tr>
+			<tr>
+				<td>Max:</td>
+				<td><input type="text" id="max" disabled="disabled"/></td>
+			</tr>
+			<tr>
+				<td>Result:</td>
+				<td><input type="text" id="result" disabled="disabled"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="resetInteger" value="Reset" /></td>
+				<td><input type="button" id="calculateInteger" value="Calculate" /></td>
+			</tr>
+			<a name="AbsDiff">
+			<tr>
+				<td>Absolute Difference:</td>
+			</tr>
+			<tr>
+				<td>Enter Value 1: </td>
+				<td><input type="text" id="AbsDiff1" /></td>
+			</tr>
+			<tr>
+				<td>Enter Value 2: </td>
+				<td><input type="text" id="AbsDiff2" /></td>
+			</tr>
+			<tr>
+				<td>Absolute Difference Result: </td>
+				<td><input type="text" id="AbsDiffResult" disabled="disabled" /></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="resetAbsolute" value="Reset" /></td>
+				<td><input type="button" id="calculateAbsolute" value="Calculate" /></td>
+			</tr>
+			<a name="factorialCalc">
+			<tr>
+				<td>Factorials:</td>
+			</tr>
+			<tr>
+				<td>Factorial: </td>
+				<td><input type="text" id="factorial" /></td>
+			</tr>
+			<tr>
+				<td>Factorial Result:</td>
+				<td><input type="text" id="factorialAnswer" disabled="disabled"/></td>
+			</tr>
+
+			<tr>
+				<td><input type="button" id="resetFactorial" value="Reset" /></td>
+				<td><input type="button" id="calculateFactorial" value="Calculate" /></td>
+			</tr>
+			<a name="MultiTable">
+			<tr>
+				<td>Multiplication Tables 1-10:</td>
+			</tr>
+
+			<table class="timestable" border="1" align="center">
+			<colgroup class="hig">
+			<col />
+			<col />
+			<col />
+			<col />
+			</colgroup>
+				<tr><td class="higC cc">	</td><td class="higC cc">1</td><td class="higC cc">2</td><td class="higC cc">3</td><td class="higC cc">4</td><td class="higC cc">5</td><td class="higC cc">6</td><td class="higC cc">7</td><td class="higC cc">8</td><td class="higC cc">9</td><td class="higC cc">10</td></tr>
+				<tr class="hig"> <td class="higC cc">1</td> <td class="higC ">1</td> <td class="higC">2</td> <td class="higC">3</td> <td class="higC">4</td>   <td class="higC">5</td>  <td class="higC">6</td>   <td class="higC">7</td> <td class="higC">8</td>  <td class="higC">9</td>  <td class="higC">10</td>  </tr>
+				<tr class="hig"> <td class="higC cc">2</td> <td class="higC">2</td> <td class="higC">4</td> <td class="higC">6</td>  <td class="higC">8</td> <td class="higC">10</td>  <td class="higC">12</td>   <td class="higC">14</td> <td class="higC">16</td>  <td class="higC">18</td>   <td class="higC">20</td> </tr>
+				<tr class="hig"> <td class="higC cc">3</td> <td class="higC">3</td> <td class="higC">6</td> <td class="higC">9</td>  <td class="higC">12</td>  <td class="higC">15</td>  <td class="higC">18</td> <td class="higC">21</td>   <td class="higC">24</td>  <td class="higC">27</td>  <td class="higC">30</td> </tr>
+				<tr class="hig"> <td class="higC cc">4</td> <td class="higC">4</td> <td class="higC">8</td> <td class="higC">12</td>  <td class="higC">16</td>  <td class="higC">20</td> <td class="higC">24</td>   <td class="higC">28</td>  <td class="higC">32</td> <td class="higC">36</td>  <td class="higC">40</td>  </tr>
+				<tr class="hig"> <td class="higC cc">5</td> <td class="higC">5</td> <td class="higC">10</td> <td class="higC">15</td>  <td class="higC">20</td>  <td class="higC">25</td> <td class="higC">30</td>   <td class="higC">35</td>  <td class="higC">40</td> <td class="higC">45</td>   <td class="higC">50</td>  </tr>
+				<tr class="hig"> <td class="higC cc">6</td> <td class="higC">6</td> <td class="higC">12</td> <td class="higC">18</td>  <td class="higC">24</td>  <td class="higC">30</td> <td class="higC">36</td>  <td class="higC">42</td>  <td class="higC">48</td>  <td class="higC">54</td>  <td class="higC">60</td>   </tr>
+				<tr class="hig"> <td class="higC cc">7</td> <td class="higC">7</td> <td class="higC">14</td> <td class="higC">21</td> <td class="higC">28</td>   <td class="higC">35</td> <td class="higC">42</td>  <td class="higC">49</td>  <td class="higC">56</td>  <td class="higC">63</td>  <td class="higC">70</td>   </tr>
+				<tr class="hig"> <td class="higC cc">8</td> <td class="higC">8</td> <td class="higC">16</td> <td class="higC">24</td> <td class="higC">32</td>  <td class="higC">40</td>  <td class="higC">48</td>   <td class="higC">56</td> <td class="higC">64</td>  <td class="higC">72</td>  <td class="higC">80</td>  </tr>
+				<tr class="hig"> <td class="higC cc">9</td> <td class="higC">9</td> <td class="higC">18</td> <td class="higC">27</td>  <td class="higC">36</td>  <td class="higC">45</td>  <td class="higC">54</td> <td class="higC">63</td>  <td class="higC">72</td>  <td class="higC">81</td>  <td class="higC">90</td>   </tr>
+				<tr class="hig"> <td class="higC cc">10</td> <td class="higC">10</td> <td class="higC">20</td> <td class="higC">30</td>  <td class="higC">40</td> <td class="higC">50</td>  <td class="higC">60</td>  <td class="higC">70</td> <td class="higC">80</td>  <td class="higC">90</td>  <td class="higC">100</td>    </tr>
+			</table>
+		</table> 
+	</body>
+</html>

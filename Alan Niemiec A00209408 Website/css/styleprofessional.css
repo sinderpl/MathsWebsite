@@ -1,0 +1,145 @@
+a:link{color:white;}
+a:visited{color:red}
+a:hover{color:orange; font: italic bold 1em arial;}
+a:focus {color: green; font: italic bold 1em arial;}
+a:active {color:green;}
+html
+{
+	text-align:center;
+	background-image:url(../images/min.jpg);
+	background-repeat:repeat-x;
+	background-size:percentage 100% , 100%;
+}
+.hig:hover {
+    background-color: grey;
+}
+.cc
+{
+	background-color:#00E600;
+}
+.higC:hover {
+    
+background-color: yellow;
+border-left:1px solid black;
+border-right: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+.timestable
+{
+margin-left: auto;
+margin-right: auto;
+
+background-color: #6699FF;
+text-align: center;
+border-collapse:collapse;
+border: 1px solid black;
+border-left:1px solid black;
+border-right: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+width:50%;
+height:500px;
+}
+table
+{
+table-layout : fixed;
+margin-left: auto;
+margin-right: auto;
+
+}
+.mid
+{
+	text-align: center;
+}
+
+body
+{
+
+background-image: url(../images/min.jpg);
+background-image:no-repeat;
+background-size:cover;
+text-align:center;
+margin: 0 auto;
+width: 70%;
+text-align:left;
+box-pack: center;
+box-align: center;
+width: 70%;
+height: 70%;
+float: center;
+border: 30px double #red;
+box-shadow: 4px 4px 4px 4px #000000;
+border-radius:10px;
+margin: 60px auto;
+padding: 10px 5px;
+font-size: 120%;
+font-weight: bold;
+color:black;
+font: Times New Roman;
+}
+* 
+	{
+		margin: 0;
+		padding: 0; 
+	}
+nav
+	{ 
+		margin: 0 auto;
+		text-align: center;
+	}
+nav ul 
+	{ 
+		list-style: none;               
+		padding: 1em 0;
+		
+	}
+nav li { display: inline;}       
+nav a 
+	{  
+		padding: 1em 2em;
+		font-weight: bold;
+		color: white;
+		border-right: 2px solid black;	
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		border-radius:10px;
+	}    
+nav a.current 
+	{
+		color: yellow; 
+	}      
+footer
+	{ 
+		text-align: center;
+	}
+#google
+	{
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		border-collapse:collapse;
+		background-color: transparent;
+	}
+.button
+	{
+		appearance:button;
+		-moz-appearance:button; /* Firefox */
+		-webkit-appearance:button; /* Safari and Chrome */
+		text-align:center;
+		
+	}
+h2
+	{
+		text-align:center;
+		font-size: 40px;
+	}
+h3
+	{
+		font-size: 20px;
+	}
+#center
+	{
+	text-align:center;
+	}
